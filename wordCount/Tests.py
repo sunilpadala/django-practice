@@ -12,7 +12,7 @@ def homepage(request):
 def readText(request):
     return render(request,"wc_input.html")
 
-
+#Just messing around for git
 def getWordCount(request):
     fulltext=request.GET['Full Text']
     print(fulltext)
